@@ -3,6 +3,7 @@
     package="com.example.akhpatil.myapplication">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".app.MyApplication"
         android:allowBackup="true"
@@ -18,6 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".feedback.FeedbackActivity"></activity>
     </application>
 
 </manifest>
